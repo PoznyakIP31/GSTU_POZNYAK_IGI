@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Lab_1.Models.Visitor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index Visitors</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form  >
+    <p>Введите имя для поиска</p>
+    <input name="Name" />
+    <p>Введите Id группы для поиска</p>
+    <select name="GroupID">
+        
+            @foreach (var item in ViewBag.GroupID)
+            {
+                <option value="@item.GroupID">
+                    @item.GroupID
+                </option>
+            }
+        
+    </select>
+    <input type="submit" />
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.VisitorID)
+            </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Surname)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Midname)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Passport)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Group)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.VisitorID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Midname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Passport)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Group.GroupID)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.VisitorID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.VisitorID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.VisitorID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

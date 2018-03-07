@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Lab_1.Models.Group>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Groups</h2>
+
+
+
+<form  >
+    <p>Введите имя для поиска</p>
+    <input name="Name" />
+    <p>Введите ID для поиска</p>
+    <select name="GroupID">
+        
+            @foreach (var item in ViewBag.GroupID)
+            {
+                <option value="@item.GroupID">
+                    @item.GroupID
+                </option>
+            }
+        
+    </select>
+    <input type="submit" />
+</form>
+<form>
+    <p>Введите имя для поиска</p>
+    <input name="Name" />
+
+    <input type="submit" />
+</form>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GroupID)
+            </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Instructor.InstructorID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Count_of_visitor)
+                </th>
+               
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GroupID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instructor.InstructorID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Count_of_visitor)
+            </td>
+          
+        </tr>
+}
+    </tbody>
+</table>

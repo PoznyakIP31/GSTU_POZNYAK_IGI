@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Lab_1.Models.TimeTable>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Timetables</h2>
+
+<form>
+    <p>Введите имя для поиска</p>
+    <input name="TimeTableID" />
+    <p>Введите ID для поиска</p>
+    <select name="GroupID">
+
+        @foreach (var item in ViewBag.GroupID)
+            {
+            <option value="@item.GroupID">
+                @item.GroupID
+            </option>
+        }
+
+    </select>
+    <input type="submit" />
+</form>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TimeTableID)
+            </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Group.GroupID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Time_visits)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Days_of_the_week)
+                </th>
+               
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TimeTableID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Group.GroupID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Time_visits)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Days_of_the_week)
+            </td>
+            
+          
+        </tr>
+}
+    </tbody>
+</table>
