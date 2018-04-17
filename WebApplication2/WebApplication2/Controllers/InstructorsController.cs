@@ -37,7 +37,8 @@ namespace WebApplication2.Controllers
             }
           
             ViewData["NameSort"] = sortorder== Sort.NameAsc ? Sort.NameDesc : Sort.NameAsc;
-            switch(sortorder)
+            ViewData["OldValue"] = Name;
+            switch (sortorder)
             {
                 case Sort.NameDesc:
                     sportContext = sportContext.OrderByDescending(f => f.Name);

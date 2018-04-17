@@ -11,14 +11,13 @@
 </p>
 <form>
     <p>Введите имя группы поиска</p>
-    <input name="Name" />
+    <input name="GroupName" value="@ViewBag.OldValue"/>
 
     <input type="submit" />
 </form>
 <table class="table">
     <thead>
         <tr>
-            
                 <th>
                     @Html.DisplayNameFor(model => model.Time_visits)
                 </th>

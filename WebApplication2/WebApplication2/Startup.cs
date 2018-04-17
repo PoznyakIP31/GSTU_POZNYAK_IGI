@@ -29,7 +29,7 @@ namespace WebApplication2
                 // внерение зависимости для доступа к БД с использ EF
                 string connection = Configuration.GetConnectionString("SqlConnection");
                 services.AddDbContext<SportContext>(options => options.UseSqlServer(connection));
-            // внедрение зависимости OperationService
+            // внедрение зависимости Service
             services.AddTransient<Service>();
             // добавление кэширования
             services.AddMemoryCache();

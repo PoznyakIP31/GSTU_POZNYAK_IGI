@@ -11,9 +11,9 @@
     <a asp-action="Create">Create New</a>
 </p>
 <form>
-    <p>Введите имя для поиска</p>
-    <input name="Name" />
-
+    <p>Введите фамилию инструктора для поиска</p>
+    <input name="Surname" value="@ViewBag.OldValue" />
+    <input type="submit" />
 </form>
 <table class="table">
     <thead>

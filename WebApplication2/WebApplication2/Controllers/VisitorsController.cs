@@ -22,9 +22,10 @@ namespace WebApplication2.Controllers
             IQueryable<Visitor> sportContext = _context.Visitors.Include(v => v.Group);
             if (Surname != null)
             {
-               // sportContext = _context.Visitors.Where(t => t.Surname.Contains(Surname)).ToList();
+                sportContext = _context.Visitors.Include(v => v.Group).Where(t => t.Surname.Contains(Surname));
             }
             ViewData["PassportSort"] = sortorder == Sort.NameAsc ? Sort.NameDesc : Sort.NameAsc;
+            ViewData["OldValue"] = Surname;
             switch (sortorder)
             {
                 case Sort.NameDesc:

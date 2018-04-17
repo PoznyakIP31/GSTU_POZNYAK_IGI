@@ -29,6 +29,7 @@ namespace WebApplication2.Controllers
               
             }
             ViewData["Days_of_the_weekSort"] = sortorder == Sort.NameAsc ? Sort.NameDesc : Sort.NameAsc;
+            ViewData["OldValue"] = GroupName;
             switch (sortorder)
             {
                 case Sort.NameDesc:

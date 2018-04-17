@@ -27,6 +27,7 @@ namespace WebApplication2.Controllers
   
             }
             ViewData["NameSort"] = sortorder == Sort.NameAsc ? Sort.NameDesc : Sort.NameAsc;
+            ViewData["OldValue"] = Surname;
             switch (sortorder)
             {
                 case Sort.NameDesc:
