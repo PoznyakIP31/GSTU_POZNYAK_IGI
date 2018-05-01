@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Lab_1.Models.Instructor>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @*@Html.DisplayNameFor(model => model.Name)*@
+                <a asp-action="Index" asp-route-sortorder="@ViewData["NameSort"]">Name</a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Surname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Midname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Experience)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Aducation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Surname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Midname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Experience)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Aducation)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.InstructorID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.InstructorID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.InstructorID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

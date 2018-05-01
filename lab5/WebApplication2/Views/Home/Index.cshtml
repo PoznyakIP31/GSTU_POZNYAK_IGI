@@ -1,0 +1,127 @@
+﻿@model Lab_1.HomeViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<table border="1">
+    <caption>Инструкторы</caption>
+    <thead>
+        <tr>
+            <th>
+               Имя
+            </th>
+            <th>
+                Фамилия
+            </th>
+            <th>
+                Отчество
+            </th>
+            <th>
+                Опыт
+            </th>
+            <th>
+                Образование
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var instructor in Model.Instructors)
+        {
+            <tr>
+                <td>@instructor.Name</td>
+                <td>@instructor.Surname</td>
+                <td>@instructor.Midname</td>
+                <td>@instructor.Experience</td>
+                <td>@instructor.Aducation</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<table border="1">
+    <caption>Посетители</caption>
+    <thead>
+        <tr>
+            <th>
+                Код группы
+            </th>
+            <th>
+                Имя
+            </th>
+            <th>
+                Фамилия
+            </th>
+            <th>
+                Отчество
+            </th>
+            <th>
+                Паспортные данные
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var visitor in Model.Visitors)
+        {
+            <tr>
+                <td>@visitor.GroupID</td>
+                <td>@visitor.Name</td>
+                <td>@visitor.Surname</td>
+                <td>@visitor.Midname</td>
+                <td>@visitor.Passport</td>
+            </tr>
+
+        }
+    </tbody>
+</table>
+<table border="1">
+    <caption>Группы</caption>
+    <thead>
+        <tr>
+            <th>
+                Код инструктора
+            </th>
+            <th>
+                Имя группы
+            </th>
+            <th>
+                Количество посетителей
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var group in Model.Groups)
+        {
+            <tr>
+                <td>@group.InstructorID</td>
+                <td>@group.Name</td>
+                <td>@group.Count_of_visitor</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<table border="1">
+    <caption>Расписания</caption>
+    <thead>
+        <tr>
+            <th>
+                Код группы
+            </th>
+            <th>
+                Время посещений
+            </th>
+            <th>
+                Дней в неделю
+            </th>   
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var timetable in Model.TimeTables)
+        {
+            <tr>
+                <td>@timetable.Group</td>
+                <td>@timetable.Time_visits</td>
+                <td>@timetable.Days_of_the_week</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

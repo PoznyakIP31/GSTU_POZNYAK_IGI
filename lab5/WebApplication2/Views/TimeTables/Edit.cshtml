@@ -1,0 +1,42 @@
+﻿@model Lab_1.Models.TimeTable
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>TimeTable</h4>
+<div>
+    <div>
+        <form asp-action="Edit">
+            <div asp-validation-summary="All"></div>
+            <input type="hidden" asp-for="TimeTableID" />
+            <div>
+                <label asp-for="GroupID"></label>
+                <select asp-for="GroupID" asp-items="ViewBag.GroupID"></select>
+                <span asp-validation-for="GroupID"></span>
+            </div>
+            <div>
+                <label asp-for="Time_visits"></label>
+                <input asp-for="Time_visits"/>
+                <span asp-validation-for="Time_visits"></span>
+            </div>
+            <div>
+                <label asp-for="Days_of_the_week"></label>
+                <input asp-for="Days_of_the_week"/>
+                <span asp-validation-for="Days_of_the_week"></span>
+            </div>
+            <div>
+                <input type="submit" value="Save"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Cancel</a>
+</div>
+
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>

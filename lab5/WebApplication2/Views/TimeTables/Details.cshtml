@@ -1,0 +1,35 @@
+﻿@model Lab_1.Models.TimeTable
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TimeTable</h4>
+    <hr />
+    <dl>
+        <dt>
+            @Html.DisplayNameFor(model => model.Time_visits)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Time_visits)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Days_of_the_week)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Days_of_the_week)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Group)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Group.GroupID)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Cancel</a>
+</div>

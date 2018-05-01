@@ -1,0 +1,41 @@
+﻿@model Lab_1.Models.Group
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>Group</h4>
+<hr />
+<div>
+    <div>
+        <form asp-action="Create">
+            <div asp-validation-summary="All"></div>
+            <div>
+                <label asp-for="InstructorID"></label>
+                <select asp-for="InstructorID" asp-items="ViewBag.InstructorID"></select>
+            </div>
+            <div>
+                <label asp-for="Name"></label>
+                <input asp-for="Name" />
+                <span asp-validation-for="Name"></span>
+            </div>
+            <div>
+                <label asp-for="Count_of_visitor" ></label>
+                <input asp-for="Count_of_visitor"  />
+                <span asp-validation-for="Count_of_visitor"></span>
+            </div>
+            <div>
+                <input type="submit" value="Create"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Cancel</a>
+</div>
+
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
