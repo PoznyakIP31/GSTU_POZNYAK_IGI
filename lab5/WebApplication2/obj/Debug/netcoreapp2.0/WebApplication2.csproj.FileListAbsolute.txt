@@ -20,3 +20,14 @@ E:\учеба\6 semestr\IGI\lab_5\WebApplication2\WebApplication2\obj\Debug\netc
 E:\учеба\6 semestr\IGI\lab_5\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.AssemblyInfo.cs
 E:\учеба\6 semestr\IGI\lab_5\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.dll
 E:\учеба\6 semestr\IGI\lab_5\WebApplication2\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.pdb
+E:\учеба\6 semestr\IGI\lab_5\lab5\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.deps.json
+E:\учеба\6 semestr\IGI\lab_5\lab5\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.runtimeconfig.json
+E:\учеба\6 semestr\IGI\lab_5\lab5\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.runtimeconfig.dev.json
+E:\учеба\6 semestr\IGI\lab_5\lab5\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.dll
+E:\учеба\6 semestr\IGI\lab_5\lab5\WebApplication2\bin\Debug\netcoreapp2.0\WebApplication2.pdb
+E:\учеба\6 semestr\IGI\lab_5\lab5\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.csprojResolveAssemblyReference.cache
+E:\учеба\6 semestr\IGI\lab_5\lab5\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.csproj.CoreCompileInputs.cache
+E:\учеба\6 semestr\IGI\lab_5\lab5\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.AssemblyInfoInputs.cache
+E:\учеба\6 semestr\IGI\lab_5\lab5\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.AssemblyInfo.cs
+E:\учеба\6 semestr\IGI\lab_5\lab5\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.dll
+E:\учеба\6 semestr\IGI\lab_5\lab5\WebApplication2\obj\Debug\netcoreapp2.0\WebApplication2.pdb

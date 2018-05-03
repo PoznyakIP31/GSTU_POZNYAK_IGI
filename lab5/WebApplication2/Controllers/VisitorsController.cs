@@ -19,13 +19,17 @@ namespace Lab_1.Controllers
         private readonly SportContext _context = new SportContext();
 
         // GET: Visitors
-        public IActionResult Index(string Surname, Sort sortorder = Sort.NameAsc)
+        public IActionResult Index(string Surname, Sort sortorder = Sort.NameAsc, int page = 1)
         {
             IQueryable<Visitor> sportContext = _context.Visitors.Include(v => v.Group);
+            int pageSize = 10;
+            var count = sportContext.Count();
+            var items = sportContext.Skip((page - 1) * pageSize).Take(pageSize).ToList();
             if (Surname != null)
             {
                 sportContext = _context.Visitors.Include(v => v.Group).Where(t => t.Surname.Contains(Surname));
             }
+            ViewData["CurrentSort"] = sortorder;
             ViewData["PassportSort"] = sortorder == Sort.NameAsc ? Sort.NameDesc : Sort.NameAsc;
             ViewData["OldValue"] = Surname;
             switch (sortorder)
@@ -37,7 +41,8 @@ namespace Lab_1.Controllers
                     sportContext = sportContext.OrderBy(f => f.Passport);
                     break;
             }
-            return View(sportContext);
+           
+            return View(PaginatedList<Visitor>.Create(sportContext.AsNoTracking(),page,pageSize));
         }
         [Authorize(Roles = "admin")]
         // GET: Visitors/Details/5

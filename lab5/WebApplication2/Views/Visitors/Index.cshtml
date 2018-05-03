@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Lab_1.Models.Visitor>
+﻿@model PaginatedList<Lab_1.Models.Visitor>
 
 @{
     ViewData["Title"] = "Index";
@@ -20,23 +20,28 @@
         <tr>
            
                 <th>
-                    @Html.DisplayNameFor(model => model.Name)
+                    @*@Html.DisplayNameFor(model => model.Name)*@
+                    Name
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Surname)
+                    @*@Html.DisplayNameFor(model => model.Surname)*@
+                    Surname
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Midname)
+                    @*@Html.DisplayNameFor(modelItem => item.Midname)*@
+                    Midname
                 </th>
                 <th>
                     @*@Html.DisplayNameFor(model => model.Passport)*@
-                    <a asp-action="Index" asp-route-sortorder="@ViewData["PassportSort"]">Passport</a> 
+                    <a asp-action="Index" asp-route-sortorder="@ViewData["PassportSort"]" asp-route-Surname="@ViewData["OldValue"]">Passport</a> 
                 </th>
             <th>
-                @Html.DisplayNameFor(model => model.Group)
+                @*@Html.DisplayNameFor(model => model.Group)*@
+                GroupID
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Group.Name)
+                @*@Html.DisplayNameFor(model => model.Group.Name)*@
+                GroupName
             </th>
             <th></th>
         </tr>
@@ -72,3 +77,71 @@
 }
     </tbody>
 </table>
+@if (Model.HasPreviousPage)
+
+{
+
+    <a asp-action="Index"
+       asp-route-sortorder="@ViewData["CurrentSort"]"
+       asp-route-Surname="@ViewData["OldValue"]"
+       asp-route-page="@(Model.PageIndex - 1)"
+       class="btn btn-default btn">
+
+        <i class="glyphicon glyphicon-chevron-left"></i>
+
+        Prev
+
+    </a>
+
+}
+
+
+@for (int i = 1; i <= Model.TotalPages; i++)
+
+{
+
+    @if (Model.PageIndex == i)
+
+    {
+
+        <a asp-action="Index" asp-route-sortorder="@ViewData["CurrentSort"]" asp-route-Surname="@ViewData["OldValue"]" asp-route-page="@i" style="background-color:#337ab7" class="btn btn-default btn">
+            
+            @i
+
+        </a>
+
+    }
+
+    else if (Model.PageIndex > i - 4 && Model.PageIndex < i + 4)
+
+    {
+
+        <a asp-action="Index" asp-route-sortorder="@ViewData["CurrentSort"]" asp-route-Surname="@ViewData["OldValue"]" asp-route-page="@i" class="btn btn-default btn">
+
+            @i
+
+        </a>
+
+    
+
+}
+
+}
+
+@if (Model.HasNextPage)
+
+{
+
+    <a asp-action="Index"
+       asp-route-sortorder="@ViewData["CurrentSort"]" 
+       asp-route-Surname="@ViewData["OldValue"]"
+       asp-route-page="@(Model.PageIndex + 1)"
+       class="btn btn-default btn">
+
+        Next
+
+        <i class="glyphicon glyphicon-chevron-right"></i>
+
+    </a>
+
+}

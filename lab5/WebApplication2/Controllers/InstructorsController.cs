@@ -21,7 +21,8 @@ namespace Lab_1.Controllers
 
         // GET: Instructors
         [SetToSession("SortState")]
-        public IActionResult Index(string Name, Sort sortorder=Sort.NameAsc)
+       
+ public IActionResult Index(string Name, Sort sortorder=Sort.NameAsc)
         {
             var sessionOperation = HttpContext.Session.Get("Operation");
             var sessionSortState = HttpContext.Session.Get("SortState");

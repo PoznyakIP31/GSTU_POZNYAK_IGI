@@ -11,10 +11,10 @@ namespace Lab_1
         
         public HomeViewModel GetHomeViewModel()
         {
-            var visitors = _context.Visitors.Take(10).ToList();
-            var groups = _context.Groups.Take(10).ToList();
-            var instructors = _context.Instructors.Take(10).ToList();
-            var timetables = _context.Timetables.Take(10).ToList();
+            var visitors = _context.Visitors.ToList();
+            var groups = _context.Groups.ToList();
+            var instructors = _context.Instructors.ToList();
+            var timetables = _context.Timetables.ToList();
 
 
             HomeViewModel homeViewModel = new HomeViewModel

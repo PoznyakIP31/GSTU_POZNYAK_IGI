@@ -13125,11 +13125,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\учеба\\6 semestr\\IGI\\lab_5\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "E:\\учеба\\6 semestr\\IGI\\lab_5\\lab5\\WebApplication2\\WebApplication2.csproj",
       "projectName": "WebApplication2",
-      "projectPath": "E:\\учеба\\6 semestr\\IGI\\lab_5\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectPath": "E:\\учеба\\6 semestr\\IGI\\lab_5\\lab5\\WebApplication2\\WebApplication2.csproj",
       "packagesPath": "C:\\Users\\NotePad.by\\.nuget\\packages\\",
-      "outputPath": "E:\\учеба\\6 semestr\\IGI\\lab_5\\WebApplication2\\WebApplication2\\obj\\",
+      "outputPath": "E:\\учеба\\6 semestr\\IGI\\lab_5\\lab5\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
