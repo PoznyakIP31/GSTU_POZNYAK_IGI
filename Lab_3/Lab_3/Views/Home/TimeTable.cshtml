@@ -1,0 +1,52 @@
+﻿@model Lab_3.Models.TimeTable
+
+@{
+    ViewData["Title"] = "TimeTables";
+}
+
+<h2>Timetables</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+           
+                <th>
+                    @Html.DisplayNameFor(model => model.Group.GroupID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Time_visits)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Days_of_the_week)
+                </th>
+               
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in ViewBag.timetables)
+{
+    <tr>
+        <td>@item.Group.GroupID</td>
+        <td>@item.Time_visits</td>
+        <td>@item.Days_of_the_week</td>
+
+    </tr>
+}
+    </tbody>
+</table>
+@{
+    if (ViewBag.timetablesFromMemory != null)
+    {
+        Lab_3.Models.TimeTable timetablesFromMemoryCashe = (Lab_3.Models.TimeTable)ViewBag.timetablesFromMemory;
+        <div class="infoMemory">
+            <p>MemoryCache</p>
+            @Html.DisplayNameFor(x => x.GroupID):&nbsp @timetablesFromMemoryCashe.GroupID.ToString();<br />
+            @Html.DisplayNameFor(x => x.Time_visits):&nbsp @timetablesFromMemoryCashe.Time_visits.ToString();<br />
+            @Html.DisplayNameFor(x => x.Days_of_the_week):&nbsp @timetablesFromMemoryCashe.Days_of_the_week.ToString();<br />
+
+        </div>
+    }
+}

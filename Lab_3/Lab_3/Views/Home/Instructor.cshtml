@@ -1,0 +1,117 @@
+﻿@model Lab_3.Models.Instructor
+
+@{
+    ViewData["Title"] = "Instructors";
+}
+
+<h2>Instructors</h2>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Surname)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Midname)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Aducation)
+                </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in ViewBag.instructors)
+{
+    <tr>
+        <td>@item.Name</td>
+        <td>@item.Surname</td>
+        <td>@item.Midname</td>
+        <td>@item.Aducation</td>
+    </tr>
+}
+    </tbody>
+</table>
+@{
+    Lab_3.Models.Instructor instructorsSession =
+        (Lab_3.Models.Instructor)ViewBag.instructorsSession;
+}
+@using (Html.BeginForm("AddInstructors", "Home", FormMethod.Post))
+{
+    <p class="add"> Добавить </p>
+    <p>
+        <label>Имя</label>
+        @{
+            if (instructorsSession != null)
+            {
+                @Html.TextBox("Name", instructorsSession.Name)
+            }
+            else
+            {
+                @Html.TextBox("Name")
+            }
+        }
+    </p>
+    <p>
+        <label>Фамилия</label>
+        @{
+            if (instructorsSession != null)
+            {
+                @Html.TextBox("Surname", instructorsSession.Surname)
+            }
+            else
+            {
+                @Html.TextBox("Surname")
+            }
+        }
+    </p>
+    <p>
+        <label>Отчество</label>
+        @{
+            if (instructorsSession != null)
+            {
+                @Html.TextBox("Midname", instructorsSession.Midname)
+            }
+            else
+            {
+                @Html.TextBox("Midname")
+            }
+        }
+    </p>
+    <p>
+        <label>Образование</label>
+        @{
+            if (instructorsSession != null)
+            {
+                @Html.TextBox("Aducation", instructorsSession.Aducation)
+            }
+            else
+            {
+                @Html.TextBox("Aducation")
+            }
+        }
+    </p>
+    <p>
+        <input type="submit" value="Send">
+    </p>
+            }
+@{
+    if (ViewBag.instructorsFromMemory != null)
+    {
+        Lab_3.Models.Instructor instructorsFromMemoryCashe = (Lab_3.Models.Instructor)ViewBag.instructorsFromMemory;
+        <div class="infoMemory">
+            <p>MemoryCache</p>
+            @Html.DisplayNameFor(x => x.Name):&nbsp @instructorsFromMemoryCashe.Name.ToString();<br />
+            @Html.DisplayNameFor(x => x.Surname):&nbsp @instructorsFromMemoryCashe.Surname.ToString();<br />
+            @Html.DisplayNameFor(x => x.Midname):&nbsp @instructorsFromMemoryCashe.Midname.ToString();<br />
+            @Html.DisplayNameFor(x => x.Aducation):&nbsp @instructorsFromMemoryCashe.Aducation.ToString();<br />
+        </div>
+    }
+}

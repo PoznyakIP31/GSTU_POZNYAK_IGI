@@ -1,0 +1,11 @@
+c:\users\notepad.by\source\repos\Lab_3\Lab_3\bin\Debug\netcoreapp2.0\Lab_3.deps.json
+c:\users\notepad.by\source\repos\Lab_3\Lab_3\bin\Debug\netcoreapp2.0\Lab_3.runtimeconfig.json
+c:\users\notepad.by\source\repos\Lab_3\Lab_3\bin\Debug\netcoreapp2.0\Lab_3.runtimeconfig.dev.json
+c:\users\notepad.by\source\repos\Lab_3\Lab_3\bin\Debug\netcoreapp2.0\Lab_3.dll
+c:\users\notepad.by\source\repos\Lab_3\Lab_3\bin\Debug\netcoreapp2.0\Lab_3.pdb
+c:\users\notepad.by\source\repos\Lab_3\Lab_3\obj\Debug\netcoreapp2.0\Lab_3.csprojResolveAssemblyReference.cache
+c:\users\notepad.by\source\repos\Lab_3\Lab_3\obj\Debug\netcoreapp2.0\Lab_3.csproj.CoreCompileInputs.cache
+c:\users\notepad.by\source\repos\Lab_3\Lab_3\obj\Debug\netcoreapp2.0\Lab_3.AssemblyInfoInputs.cache
+c:\users\notepad.by\source\repos\Lab_3\Lab_3\obj\Debug\netcoreapp2.0\Lab_3.AssemblyInfo.cs
+c:\users\notepad.by\source\repos\Lab_3\Lab_3\obj\Debug\netcoreapp2.0\Lab_3.dll
+c:\users\notepad.by\source\repos\Lab_3\Lab_3\obj\Debug\netcoreapp2.0\Lab_3.pdb
