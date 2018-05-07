@@ -1,0 +1,147 @@
+﻿@model PaginatedList<Lab_1.Models.Visitor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form>
+    <p>Введите фамилию для поиска</p>
+    <input name="Surname" value="@ViewBag.OldValue"/>
+
+    <input type="submit" />
+</form>
+<table class="table">
+    <thead>
+        <tr>
+           
+                <th>
+                    @*@Html.DisplayNameFor(model => model.Name)*@
+                    Name
+                </th>
+                <th>
+                    @*@Html.DisplayNameFor(model => model.Surname)*@
+                    Surname
+                </th>
+                <th>
+                    @*@Html.DisplayNameFor(modelItem => item.Midname)*@
+                    Midname
+                </th>
+                <th>
+                    @*@Html.DisplayNameFor(model => model.Passport)*@
+                    <a asp-action="Index" asp-route-sortorder="@ViewData["PassportSort"]" asp-route-Surname="@ViewData["OldValue"]">Passport</a> 
+                </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.Group)*@
+                GroupID
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.Group.Name)*@
+                GroupName
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Midname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Passport)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Group.GroupID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Group.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.VisitorID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.VisitorID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.VisitorID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+@if (Model.HasPreviousPage)
+
+{
+
+    <a asp-action="Index"
+       asp-route-sortorder="@ViewData["CurrentSort"]"
+       asp-route-Surname="@ViewData["OldValue"]"
+       asp-route-page="@(Model.PageIndex - 1)"
+       class="btn btn-default btn">
+
+        <i class="glyphicon glyphicon-chevron-left"></i>
+
+        Prev
+
+    </a>
+
+}
+
+
+@for (int i = 1; i <= Model.TotalPages; i++)
+
+{
+
+    @if (Model.PageIndex == i)
+
+    {
+
+        <a asp-action="Index" asp-route-sortorder="@ViewData["CurrentSort"]" asp-route-Surname="@ViewData["OldValue"]" asp-route-page="@i" style="background-color:#337ab7" class="btn btn-default btn">
+            
+            @i
+
+        </a>
+
+    }
+
+    else if (Model.PageIndex > i - 4 && Model.PageIndex < i + 4)
+
+    {
+
+        <a asp-action="Index" asp-route-sortorder="@ViewData["CurrentSort"]" asp-route-Surname="@ViewData["OldValue"]" asp-route-page="@i" class="btn btn-default btn">
+
+            @i
+
+        </a>
+
+    
+
+}
+
+}
+
+@if (Model.HasNextPage)
+
+{
+
+    <a asp-action="Index"
+       asp-route-sortorder="@ViewData["CurrentSort"]" 
+       asp-route-Surname="@ViewData["OldValue"]"
+       asp-route-page="@(Model.PageIndex + 1)"
+       class="btn btn-default btn">
+
+        Next
+
+        <i class="glyphicon glyphicon-chevron-right"></i>
+
+    </a>
+
+}

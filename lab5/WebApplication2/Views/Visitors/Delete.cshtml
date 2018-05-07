@@ -1,0 +1,50 @@
+﻿@model Lab_1.Models.Visitor
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<div>
+    <h4>Visitor</h4>
+    <hr />
+    <dl>
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Surname)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Surname)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Midname)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Midname)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Passport)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Passport)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Group)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Group.GroupID)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="VisitorID" />
+        <input type="submit" value="Delete"/> |
+        <a asp-action="Index">Cancel</a>
+    </form>
+</div>

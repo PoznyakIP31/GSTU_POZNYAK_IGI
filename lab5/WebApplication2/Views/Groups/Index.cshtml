@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Lab_1.Models.Group>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form>
+    <p>Введите фамилию инструктора для поиска</p>
+    <input name="Surname" value="@ViewBag.OldValue" />
+    <input type="submit" />
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            
+                <th>
+                    @*@Html.DisplayNameFor(model => model.Name)*@
+                    <a asp-action="Index" asp-route-sortorder="@ViewData["NameSort"]">Name</a> 
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Count_of_visitor)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Instructor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Instructor.Surname)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+@foreach (var item in Model) {
+        <tr>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Count_of_visitor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instructor.InstructorID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instructor.Surname)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.GroupID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.GroupID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.GroupID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

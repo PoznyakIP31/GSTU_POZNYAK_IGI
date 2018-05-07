@@ -1,0 +1,35 @@
+﻿@model Lab_1.Models.Group
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Group</h4>
+    <hr />
+    <dl>
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Count_of_visitor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Count_of_visitor)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Instructor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Instructor.InstructorID)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Cancel</a>
+</div>

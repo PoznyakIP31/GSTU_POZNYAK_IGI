@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Lab_1.Models.Instructor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form>
+    <p> Введите имя для поиска</p>
+    <input name="Name" value="@ViewBag.OldValue"/>
+
+    <input type="submit" />
+</form>
+@Html.Partial("Partial")
