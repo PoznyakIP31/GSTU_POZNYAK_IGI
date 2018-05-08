@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Visitors</title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <link href="lib/jquery-ui/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    <script src="lib/jquery-ui/jquery-ui.js"></script>
+    <script src="lib/jquery-ui/ui/i18n/datepicker-ru.js"></script>
+
+</head>
+<body>
+    <div>
+        <form name="visitorForm">
+            <input type="hidden" name="visitorId" value="0" />
+            <div class="form-group">
+                <label for="groupName">Имя группы:</label>
+                <select id="groupId" name="groupId"></select>
+            </div>
+
+            <div class="form-group">
+                <label for="name">Имя</label>
+                <input class="form-control" name="name" />
+            </div>
+            <div class="form-group">
+                <label for="name">Фамилия</label>
+                <input class="form-control" name="surname" />
+            </div>
+            <div class="form-group">
+                <label for="name">Отчество</label>
+                <input class="form-control" name="midname" />
+            </div>
+            <div class="form-group">
+                <label for="name">Паспорт</label>
+                <input class="form-control" name="passport" />
+            </div>
+            <div class="panel-body">
+                <button type="submit" class="btn btn-sm btn-primary">Сохранить</button>
+                <a id="reset" class="btn btn-sm btn-primary">Сбросить</a>
+            </div>
+        </form>
+        <table class="table table-condensed table-striped table-bordered">
+            <thead><tr><th>Код</th><th>Имя группы</th><th>Имя</th><th>Фамилия</th><th>Отчество</th><th>Паспорт</th><th></th></tr></thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script>
+
+        // Получение всех операций
+        function Getvisitors() {
+            $.ajax({
+                url: '/api/visitors',
+                type: 'GET',
+                contentType: "application/json",
+                success: function (visitors) {
+                    var rows = "";
+                    $.each(visitors, function (index, visitor) {
+                        // добавляем полученные элементы в таблицу
+                        rows += row(visitor);
+                    })
+                    $("table tbody").append(rows);
+                 }
+            });
+        }
+        // Получение одной операции
+        function Getvisitor(id) {
+            $.ajax({
+                url: '/api/visitors/' + id,
+                type: 'GET',
+                contentType: "application/json",
+                success: function (visitor) {
+                    var form = document.forms["visitorForm"];
+                    form.elements["visitorId"].value = visitor.visitorID;
+                    form.elements["groupId"].selectedIndex = visitor.groupID;
+                    form.elements["name"].value = visitor.name;
+                    form.elements["surname"].value = visitor.surname;
+                    form.elements["midname"].value = visitor.midname;
+                    form.elements["passport"].value = visitor.passport;
+                }
+            });
+        }
+
+        function Createvisitor(groupId, name, surname, midname, passport) {
+            $.ajax({
+                url: "api/visitors",
+                contentType: "application/json",
+                method: "POST",
+                data: JSON.stringify({
+                    groupId: groupId,
+                    name: name,
+                    surname: surname,
+                    midname: midname,
+                    passport: passport
+                }),
+                success: function (visitor) {
+                    reset();
+                    var form = document.forms["visitorForm"];
+                    visitor.groupName = form.elements["groupId"].options[groupId].text;
+
+                    $("table tbody").append(row(visitor));
+                }
+            })
+        }
+                function Editvisitor(visitorID, groupId, name, surname, midname, passport) {
+            $.ajax({
+                url: "api/visitors",
+                contentType: "application/json",
+                method: "PUT",
+                data: JSON.stringify({
+                    visitorID: visitorID,
+                    groupId: groupId,
+                    name: name,
+                    surname: surname,
+                    midname: midname,
+                    passport: passport
+                }),
+                success: function (visitor) {
+                    reset();
+                    var form = document.forms["visitorForm"];
+                    visitor.groupName = form.elements["groupId"].options[groupId].text;
+               
+                    $("tr[data-rowid='" + visitor.visitorID + "']").replaceWith(row(visitor));
+                }
+            })
+        }
+                function Deletevisitor(id) {
+                    $.ajax({
+                        url: "api/visitors/" + id,
+                        contentType: "application/json",
+                        method: "DELETE",
+                        success: function (visitor) {
+                            $("tr[data-rowid='" + visitor.visitorID + "']").remove();
+                        }
+                    })
+                }
+        // создание строки для таблицы
+        var row = function (visitor) {
+            return "<tr data-rowid='" + visitor.visitorID + "'><td>" + visitor.visitorID + "</td>" +
+                "<td>" + visitor.groupName + "</td>" +
+                "<td>" + visitor.name + "</td>" +
+                "<td>" + visitor.surname + "</td>" +
+                "<td>" + visitor.midname + "</td>" +
+                "<td>" + visitor.passport + "</td>" +
+                "<td><a class='editLink' data-id='" + visitor.visitorID + "'>Изменить</a> | " +
+                "<a class='removeLink' data-id='" + visitor.visitorID + "'>Удалить</a></td></tr>";
+                      
+        }
+        function reset() {
+            var form = document.forms["visitorForm"];
+            form.reset();
+            form.elements["visitorId"].value = 0;
+        }
+        // Получение списка видов топлива
+        function GetGroups() {
+            var listItems = "";
+            $.ajax({
+                url: '/api/visitors/groups',
+                type: 'GET',
+                contentType: "application/json",
+                success: function (groups) {
+                    listItems = listItems + "<option value=0 selected>(выбор)</option>";
+                    $.each(groups, function (index, group) {
+                        listItems = listItems + "<option value='" + group.groupId + "'>" + group.name + "</option>";
+                    });
+                    $("#groupId").html(listItems);
+                }
+            });
+        }
+        // сброс значений формы
+        $("#reset").click(function (e) {
+
+            e.preventDefault();
+            reset();
+        })
+        // отправка формы
+        $("form").submit(function (e) {
+
+            e.preventDefault();
+            var visitorID = this.elements["visitorId"].value;
+            var groupID = this.elements["groupId"].selectedIndex;
+
+            var name = this.elements["name"].value;
+            var surname = this.elements["surname"].value;
+            var midname = this.elements["midname"].value;
+            var passport = this.elements["passport"].value;
+            if (visitorID == 0)
+                Createvisitor(groupID, name, surname, midname, passport);
+            else
+                Editvisitor(visitorID, groupID, name, surname, midname, passport);
+        
+        });
+        // нажатие на ссылку Изменить
+        $("body").on("click", ".editLink", function () {
+            var id = $(this).data("id");
+            Getvisitor(id);
+        })
+        $("body").on("click", ".removeLink", function () {
+            var id = $(this).data("id");
+            Deletevisitor(id);
+        })
+        Getvisitors();
+        GetGroups();
+
+    </script>
+</body>
+</html>

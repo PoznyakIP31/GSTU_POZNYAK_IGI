@@ -1,0 +1,22 @@
+c:\users\notepad.by\source\repos\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.deps.json
+c:\users\notepad.by\source\repos\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.runtimeconfig.json
+c:\users\notepad.by\source\repos\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.runtimeconfig.dev.json
+c:\users\notepad.by\source\repos\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.dll
+c:\users\notepad.by\source\repos\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.pdb
+c:\users\notepad.by\source\repos\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.csprojResolveAssemblyReference.cache
+c:\users\notepad.by\source\repos\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.csproj.CoreCompileInputs.cache
+c:\users\notepad.by\source\repos\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.AssemblyInfoInputs.cache
+c:\users\notepad.by\source\repos\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.AssemblyInfo.cs
+c:\users\notepad.by\source\repos\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.dll
+c:\users\notepad.by\source\repos\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.pdb
+E:\учеба\6 semestr\IGI\lab_6\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.deps.json
+E:\учеба\6 semestr\IGI\lab_6\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.runtimeconfig.json
+E:\учеба\6 semestr\IGI\lab_6\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.runtimeconfig.dev.json
+E:\учеба\6 semestr\IGI\lab_6\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.dll
+E:\учеба\6 semestr\IGI\lab_6\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.pdb
+E:\учеба\6 semestr\IGI\lab_6\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.csprojResolveAssemblyReference.cache
+E:\учеба\6 semestr\IGI\lab_6\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.csproj.CoreCompileInputs.cache
+E:\учеба\6 semestr\IGI\lab_6\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.AssemblyInfoInputs.cache
+E:\учеба\6 semestr\IGI\lab_6\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.AssemblyInfo.cs
+E:\учеба\6 semestr\IGI\lab_6\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.dll
+E:\учеба\6 semestr\IGI\lab_6\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.pdb
