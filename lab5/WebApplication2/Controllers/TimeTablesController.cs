@@ -17,8 +17,8 @@ namespace Lab_1.Controllers
     {
         private readonly SportContext _context=new SportContext();
 
-        [Authorize(Roles = "admin")]
-        [Authorize(Roles = "user")]
+       // [Authorize(Roles = "admin")]
+        [Authorize(Roles = "user,admin")]
         // GET: TimeTables
         public IActionResult Index(string GroupName, Sort sortorder = Sort.NameAsc)
         {

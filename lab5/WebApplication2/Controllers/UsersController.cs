@@ -17,7 +17,7 @@ namespace WebApplication2.Controllers
 
 
         // GET: Users
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "user,admin")]
         public async Task<IActionResult> Index()
         {
             var applicationContext = _context.Users.Include(u => u.Role);

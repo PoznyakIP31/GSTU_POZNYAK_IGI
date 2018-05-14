@@ -16,8 +16,7 @@ namespace Lab_1.Controllers
     {
         private readonly SportContext _context=new SportContext();
 
-        [Authorize(Roles = "admin")]
-        [Authorize(Roles = "user")]
+        [Authorize(Roles = "user,admin")]
         // GET: Groups
         public IActionResult Index(string Surname,Sort sortorder= Sort.NameAsc)
         {
