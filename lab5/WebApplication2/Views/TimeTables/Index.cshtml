@@ -25,9 +25,9 @@
                     @*@Html.DisplayNameFor(model => model.Days_of_the_week)*@
                     <a asp-action="Index" asp-route-sortorder="@ViewData["Days_of_the_weekSort"]">Days_of_the_week</a> 
                 </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.Group)
-            </th>
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.Group.Name)
             </th>
@@ -44,9 +44,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Days_of_the_week)
             </td>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.Group.GroupID)
-            </td>
+            </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.Group.Name)
             </td>
