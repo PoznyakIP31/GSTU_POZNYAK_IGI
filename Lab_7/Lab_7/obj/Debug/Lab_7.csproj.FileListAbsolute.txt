@@ -1,0 +1,354 @@
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\ApplicationInsights.config
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Lab_7.dll.config
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Lab_7.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Lab_7.pdb
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Antlr3.Runtime.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.AI.Web.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.ApplicationInsights.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Newtonsoft.Json.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Web.Optimization.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\WebGrease.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Web.Optimization.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Antlr3.Runtime.pdb
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Newtonsoft.Json.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.ApplicationInsights.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.AI.Web.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\ru\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\obj\Debug\Lab_7.csprojResolveAssemblyReference.cache
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\obj\Debug\Lab_7.csproj.CoreCompileInputs.cache
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\obj\Debug\Lab_7.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\obj\Debug\Lab_7.pdb
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Win32.Primitives.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\netstandard.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.AppContext.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Collections.Concurrent.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Collections.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Collections.NonGeneric.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Collections.Specialized.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.ComponentModel.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.ComponentModel.Primitives.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Console.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Data.Common.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Diagnostics.Contracts.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Diagnostics.Debug.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Diagnostics.Process.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Diagnostics.StackTrace.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Diagnostics.Tools.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Diagnostics.TraceSource.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Diagnostics.Tracing.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Drawing.Primitives.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Dynamic.Runtime.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Globalization.Calendars.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Globalization.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Globalization.Extensions.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.IO.Compression.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.IO.Compression.ZipFile.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.IO.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.IO.FileSystem.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.IO.IsolatedStorage.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.IO.Pipes.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Linq.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Linq.Expressions.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Linq.Parallel.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Linq.Queryable.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Net.Http.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Net.NameResolution.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Net.NetworkInformation.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Net.Ping.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Net.Primitives.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Net.Requests.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Net.Security.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Net.Sockets.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Net.WebHeaderCollection.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Net.WebSockets.Client.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Net.WebSockets.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.ObjectModel.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Reflection.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Reflection.Extensions.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Reflection.Primitives.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Resources.Reader.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Resources.ResourceManager.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Resources.Writer.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Runtime.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Runtime.Extensions.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Runtime.Handles.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Runtime.InteropServices.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Runtime.Numerics.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Runtime.Serialization.Json.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Security.Claims.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Security.Cryptography.Csp.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Security.Principal.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Security.SecureString.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Text.Encoding.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Text.Encoding.Extensions.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Text.RegularExpressions.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Threading.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Threading.Overlapped.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Threading.Tasks.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Threading.Thread.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Threading.ThreadPool.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Threading.Timer.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.ValueTuple.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Xml.ReaderWriter.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Xml.XDocument.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Xml.XmlDocument.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Xml.XmlSerializer.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Xml.XPath.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Xml.XPath.XDocument.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\EntityFramework.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\EntityFramework.SqlServer.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Logging.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Options.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Remotion.Linq.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Collections.Immutable.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.ComponentModel.Annotations.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Data.SqlClient.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Interactive.Async.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\EntityFramework.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\EntityFramework.SqlServer.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Logging.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Options.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\Remotion.Linq.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Collections.Immutable.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Interactive.Async.xml
+C:\Users\NotePad.by\source\repos\Lab_7\Lab_7\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\ApplicationInsights.config
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Lab_7.dll.config
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Lab_7.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Lab_7.pdb
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Win32.Primitives.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\netstandard.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.AppContext.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Collections.Concurrent.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Collections.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Collections.NonGeneric.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Collections.Specialized.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.ComponentModel.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.ComponentModel.EventBasedAsync.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.ComponentModel.Primitives.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.ComponentModel.TypeConverter.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Console.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Data.Common.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Diagnostics.Contracts.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Diagnostics.Debug.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Diagnostics.FileVersionInfo.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Diagnostics.Process.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Diagnostics.StackTrace.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Diagnostics.TextWriterTraceListener.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Diagnostics.Tools.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Diagnostics.TraceSource.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Diagnostics.Tracing.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Drawing.Primitives.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Dynamic.Runtime.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Globalization.Calendars.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Globalization.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Globalization.Extensions.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.IO.Compression.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.IO.Compression.ZipFile.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.IO.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.IO.FileSystem.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.IO.FileSystem.DriveInfo.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.IO.FileSystem.Primitives.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.IO.FileSystem.Watcher.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.IO.IsolatedStorage.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.IO.MemoryMappedFiles.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.IO.Pipes.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.IO.UnmanagedMemoryStream.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Linq.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Linq.Expressions.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Linq.Parallel.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Linq.Queryable.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Net.Http.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Net.NameResolution.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Net.NetworkInformation.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Net.Ping.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Net.Primitives.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Net.Requests.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Net.Security.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Net.Sockets.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Net.WebHeaderCollection.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Net.WebSockets.Client.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Net.WebSockets.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.ObjectModel.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Reflection.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Reflection.Extensions.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Reflection.Primitives.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Resources.Reader.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Resources.ResourceManager.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Resources.Writer.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Runtime.CompilerServices.VisualC.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Runtime.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Runtime.Extensions.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Runtime.Handles.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Runtime.InteropServices.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Runtime.Numerics.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Runtime.Serialization.Formatters.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Runtime.Serialization.Json.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Runtime.Serialization.Primitives.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Runtime.Serialization.Xml.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Security.Claims.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Security.Cryptography.Algorithms.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Security.Cryptography.Csp.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Security.Cryptography.Encoding.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Security.Cryptography.Primitives.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Security.Cryptography.X509Certificates.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Security.Principal.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Security.SecureString.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Text.Encoding.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Text.Encoding.Extensions.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Text.RegularExpressions.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Threading.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Threading.Overlapped.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Threading.Tasks.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Threading.Tasks.Parallel.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Threading.Thread.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Threading.ThreadPool.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Threading.Timer.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.ValueTuple.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Xml.ReaderWriter.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Xml.XDocument.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Xml.XmlDocument.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Xml.XmlSerializer.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Xml.XPath.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Xml.XPath.XDocument.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Antlr3.Runtime.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\AspNet.ScriptManager.bootstrap.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\AspNet.ScriptManager.jQuery.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\EntityFramework.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\EntityFramework.SqlServer.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.AI.Agent.Intercept.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.AI.DependencyCollector.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.AI.Web.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.AI.WindowsServer.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.ApplicationInsights.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.EntityFrameworkCore.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.EntityFrameworkCore.Relational.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Caching.Abstractions.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Caching.Memory.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Configuration.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Logging.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Options.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Primitives.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.ScriptManager.WebForms.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Web.Infrastructure.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Newtonsoft.Json.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Remotion.Linq.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Collections.Immutable.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.ComponentModel.Annotations.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Data.SqlClient.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Diagnostics.DiagnosticSource.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Interactive.Async.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Web.Optimization.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\WebGrease.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\EntityFramework.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\EntityFramework.SqlServer.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.EntityFrameworkCore.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.EntityFrameworkCore.Relational.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.EntityFrameworkCore.SqlServer.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Caching.Abstractions.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Caching.Memory.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Configuration.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Logging.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Options.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.Extensions.Primitives.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Remotion.Linq.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Collections.Immutable.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Diagnostics.DiagnosticSource.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Interactive.Async.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\System.Web.Optimization.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Antlr3.Runtime.pdb
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Newtonsoft.Json.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.ApplicationInsights.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.AI.DependencyCollector.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.AI.WindowsServer.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\Microsoft.AI.Web.xml
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\ru\System.Web.Optimization.resources.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\bin\ru\Microsoft.AspNet.FriendlyUrls.resources.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\obj\Debug\Lab_7.csprojResolveAssemblyReference.cache
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\obj\Debug\Lab_7.csproj.CoreCompileInputs.cache
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\obj\Debug\Lab_7.dll
+E:\учеба\6 semestr\IGI\lab_7\Lab_7\Lab_7\obj\Debug\Lab_7.pdb
